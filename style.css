@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 250px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px white;
+    text-decoration: none;
+    position: sticky;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    /* border: 2px solid white; */
+    border: 2px solid white;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navbarcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#homebutton{
+    width: 120px;
+    height: 40px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    color: lightblue;
+    background-color: black;
+}
+
+.testimonial{
+    width: 1440px;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 200px 200px;
+    
+    gap: 20px;
+}
+.card{
+    /* background-color: white; */
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 2px solid black;
+    /* box-shadow: 5px 5px 5px 4px rgb(242, 150, 242); */
+    /* padding: 10px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+
+
+}
+.card:nth-child(1){
+    grid-column: 1/4;
+}
+#maincontainer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(165, 182, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 800px;
+    height: 300px;
+    /* background-color: rgb(131, 161, 170); */
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerpara2{
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: white;
+    
+}
+.homebutton:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+#contact{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+#contactfirst{
+    width: 1200px;
+    height:400px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: left;
+    gap: 100px;
+    align-items: center;
+    margin-left: 150px;
+}
+.contactfirst1{
+    width: 400px;
+    height: 300px;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top:10px ;
+    background-color:black;
+    color: white;
+}
+
+.contactpara{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.contactpara1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
